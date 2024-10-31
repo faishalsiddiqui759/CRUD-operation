@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quora posts</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>QUORA POSTS</h1>
+    <hr/><hr/>
+    <div class="post">
+        <%for(post of posts){%>
+          <div class="p1"><h2><%=post.username%></h2></div>
+          <div class="p1"><h3><%=post.content%></h3></div>
+          <hr>
+        <%}%>
+    </div>
+    <a href="http://localhost:8080/posts/new">Create a new post</a>
+    <footer>
+        <p>About Careers Privacy Terms Contact Languages Your Ad ChoicesPress© Quora, Inc. 2024</p>
+    </footer>
+</body>
+</html>

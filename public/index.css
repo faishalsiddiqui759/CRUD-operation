@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(176, 171, 165);
+    margin: 0px;
+}
+h1{
+    color: rgb(172, 22, 22);
+    margin-left: 38rem;
+}
+.p1{
+    padding-left: 5rem;
+}
+footer{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+}
+a{
+    padding-left: 5rem;
+    text-decoration: underline;
+    color: rgb(172, 22, 22);
+}
