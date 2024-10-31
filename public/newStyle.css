@@ -1,8 +1,26 @@
 body{
     margin: 0%;
-    background-color: blue !important;
+    background-color: rgb(176, 171, 165);
 }
 h1{
-    color: rgb(172, 22, 22) !important;
-    margin-left: 50%;
+    color: rgb(172, 22, 22);
+    margin-left: 40%;
+}
+form{
+    margin-left: 35%;
+}
+input{
+    height: 2rem;
+    width: 10rem;
+    border: 2px solid rgb(172, 22, 22);
+    border-radius: 2rem;
+}
+textarea{
+    border: 2px solid rgb(172, 22, 22);
+    border-radius: 1rem;
+}
+button{
+    background-color: rgb(172, 22, 22);
+    height: 2rem;
+    width: 4rem;
 }
