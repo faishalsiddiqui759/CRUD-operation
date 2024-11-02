@@ -15,8 +15,13 @@
           <div class="p1"><h3><%=post.content%></h3></div>
           <% if(post.username || post.content){%>
         <a href="http://localhost:8080/posts/<%=post.id%>">See post in detail</a>
-            <hr>
-            
+        <a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit your post</a>
+
+        <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+            <button>DELETE POST</button>
+        </form>
+
+            <hr/>
           <% } %>
             
         <%}%>
